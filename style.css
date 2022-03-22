@@ -1,0 +1,48 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.jumbotron h1 {
+  color: brown;
+}
+.nav-scroller .nav a {
+  text-decoration: none;
+}
+.nav-scroller .nav a:nth-child(even) {
+  color: blueviolet !important;
+}
+.jumbotron .col-md-6 .lead a {
+  text-decoration: none;
+}
+main .row > div div:first-of-type {
+  background-color: rgb(66, 126, 102);
+}
+main .row > div div:last-of-type {
+  background-color: rgb(141, 123, 123);
+}
+/* aside div > ol > li {
+  border: 1px solid gray;
+} */
+aside > div:nth-child(2) ol li a {
+  color: palevioletred;
+}
+
+.blog-post:nth-child(3) .blog-post-meta a {
+  background-color: pink;
+}
+.blog-footer p:nth-child(2) a {
+  background-color: brown;
+}
+footer {
+  background-color: aqua;
+}

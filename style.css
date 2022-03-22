@@ -46,3 +46,9 @@ aside > div:nth-child(2) ol li a {
 footer {
   background-color: aqua;
 }
+.changeBg {
+  background-color: rgb(94, 94, 168);
+}
+.hidden {
+  display: none;
+}

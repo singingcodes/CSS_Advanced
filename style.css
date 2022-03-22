@@ -30,14 +30,14 @@ main .row > div div:first-of-type {
 main .row > div div:last-of-type {
   background-color: rgb(141, 123, 123);
 }
-/* aside div > ol > li {
-  border: 1px solid gray;
-} */
 aside > div:nth-child(2) ol li a {
   color: palevioletred;
 }
 
-.blog-post:nth-child(3) .blog-post-meta a {
+/* .blog-post:nth-child(3) .blog-post-meta a {
+  background-color: pink;
+} */
+p:last-of-type a {
   background-color: pink;
 }
 .blog-footer p:nth-child(2) a {
